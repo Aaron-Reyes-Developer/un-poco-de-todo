@@ -1,0 +1,12 @@
+//GRID RESPONSIVO
+grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
+
+//CAMBIAR EL COLOR DE LA BARRA DE NAVEGACION EN CELULARES
+<meta name="theme-color" content="#0C0C0C">
+
+
+
+
+
+
