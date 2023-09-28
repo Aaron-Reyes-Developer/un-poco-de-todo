@@ -5,7 +5,8 @@ grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
 //CAMBIAR EL COLOR DE LA BARRA DE NAVEGACION EN CELULARES
 <meta name="theme-color" content="#0C0C0C">
 
-
+//PONER ICONO EL LA WEB
+<link rel="icon" href="ruta/a/tu/icono.ico" type="image/x-icon">
 
 //Funcion para limintar una cadena de texto
 function limitar_cadena($cadena, $limite, $sufijo)
