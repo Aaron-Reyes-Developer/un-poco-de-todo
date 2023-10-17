@@ -28,3 +28,11 @@ function limitar_cadena($cadena, $limite, $sufijo)
 
 //OBTENER EL ID DE LA ULTIMA INSERSION EN MYSQL PHP
 $id = mysqli_insert_id($conn);
+
+
+
+//mostrar lienas de acuerdo a la caja (esto se lo aplicas al parrafo <p>)
+overflow: hidden;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 4; //apareceran 4 lineas
