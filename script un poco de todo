@@ -1,6 +1,10 @@
 //INICIOAR LOS SCRIPS EN UN PROYECTO
 npm init -y
 
+//CURSO DE TAILWIND VIDEO YUTU
+46:45
+
+
 //ERROR COMUN EN GIT
 git pull --rebase origin [branch]
 
