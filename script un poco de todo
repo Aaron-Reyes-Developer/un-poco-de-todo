@@ -1,3 +1,7 @@
+ <!-- AGREGA OTRA PAGINA -->
+<pagebreak />
+
+
 //INICIOAR LOS SCRIPS EN UN PROYECTO
 npm init -y
 
