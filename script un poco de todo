@@ -1,6 +1,19 @@
 //PONER EL NUMERO DE LA PAGINA EN EL PDF
 'Pagina: {PAGENO} de {nbpg}'
 
+
+// Configurar opciones de mPDF
+$mpdfConfig = [
+    'mode' => 'utf-8',
+    'format' => 'A4-L',
+    'margin_left' => 10,  // Establecer el margen izquierdo a 0
+    'margin_right' => 10, // Establecer el margen derecho a 0
+    'margin_top' => 30,   // Establecer el margen superior a 0
+    'margin_bottom' => 10 // Establecer el formato a A4-L para orientación horizontal // Establecer el formato a A4-L para orientación horizontal
+];
+
+
+
 <!-- AGREGA OTRA PAGINA -->
 <pagebreak />
 
