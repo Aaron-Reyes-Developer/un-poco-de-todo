@@ -1,4 +1,7 @@
- <!-- AGREGA OTRA PAGINA -->
+//PONER EL NUMERO DE LA PAGINA EN EL PDF
+'Pagina: {PAGENO} de {nbpg}'
+
+<!-- AGREGA OTRA PAGINA -->
 <pagebreak />
 
 
