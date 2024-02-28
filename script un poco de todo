@@ -14,12 +14,49 @@ $mpdfConfig = [
 
 
 
+<!-- HEADER HTML-->
+<?php
+
+    $header = '<header class="header">
+        <table class="header-table">
+            <tr>
+                <td>
+                    <img style="width: 130px; height: 50px; " src="' . $logo . '" alt="Logo de la empresa">
+                </td>
+                <td style="text-align: center; font-size: 0.6rem; color: #424242;">
+                    <h1>Inspección en Recepción</h1>
+                </td>
+                <td style="text-align: right;">
+                    <h3>Codigo: ' . $codigo . '</h3>
+                    <h3>Pagina: {PAGENO} de {nbpg} </h3>
+                </td>
+            </tr>
+        </table>
+    </header>
+    ';
+
+?>
+
+
+
+
+//PONER ENCABEZADO EN CADA PAGINA
+$mpdf->SetHTMLHeader($header);
+
+
+
+//PONER FOOTER EN CADA PAGINA
+$mpdf->SetHTMLFooter('<div style="text-align: right;">Página {PAGENO} de {nbpg}</div>');
+
+
+
 <!-- AGREGA OTRA PAGINA -->
 <pagebreak />
 
 
 //INICIOAR LOS SCRIPS EN UN PROYECTO
 npm init -y
+
 
 //CURSO DE TAILWIND VIDEO YUTU
 46:45
