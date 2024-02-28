@@ -1,3 +1,7 @@
+//FORMATO DE FECHA MYSQL
+DATE_FORMAT(control.fecha_creacion, '%Y/%m/%d')
+
+
 //PONER EL NUMERO DE LA PAGINA EN EL PDF
 'Pagina: {PAGENO} de {nbpg}'
 
