@@ -1,3 +1,26 @@
+//mostrar el mensaje de error con ty php
+try {
+
+    // ELIMINAR LOS DATOS DE LAS TABLAS SECUANDRIAS
+    $queryEliminarRegistro = mysqli_query($conn, "DELETE FROM orden_produccion_diaria WHERE fk_id_lote = $id_registro ");
+
+
+    if ($queryEliminarRegistro) {
+
+        echo json_encode(array('mensaje' => 'ok'));
+
+        //
+    } else {
+        echo json_encode(array('mensaje' => 'nop'));
+    }
+
+} catch (mysqli_sql_exception $e) {
+
+    echo json_encode(array('mensaje' => 'Error al ejecutar la consulta: ' . $e->getMessage()));
+
+}
+
+
 //FORMATO DE FECHA MYSQL
 DATE_FORMAT(control.fecha_creacion, '%Y/%m/%d')
 
