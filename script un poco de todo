@@ -1,3 +1,7 @@
+//INSTALAR DOMPDF
+composer require dompdf/dompdf
+
+
 //mostrar el mensaje de error con ty php
 try {
 
