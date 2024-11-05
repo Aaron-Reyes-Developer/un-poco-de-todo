@@ -1,3 +1,9 @@
+//PONER EL AÑO ACTUAL EN UN TEXTO HTML
+<script>
+    document.write(new Date().getFullYear());
+</script>
+
+
 //INSTALAR DOMPDF
 composer require mpdf/mpdf
 
